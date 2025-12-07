@@ -1,1 +1,152 @@
-/* место для вашего кода */
+body {
+    background-color: F5F5F5;
+    font-family: Raleway, san-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content_section {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+header {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    min-width: 1100;
+    min-height: 293;
+}
+
+nav {
+    display: flex;
+    column-gap: 13;
+    padding: 92 474 96 478;
+
+}
+
+.header_link_active {
+border-bottom: none;
+}
+
+.header_link {
+border-bottom: 1px solid;
+text-decoration: none;
+}
+
+.header_links-list-item {
+    font-size: 18px;
+    list-style: circle;
+    padding-left: 4px;
+}
+
+.header_links-list-item_no-bullit {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.header_logo {
+    display: block;
+    grid-column: 2;
+    
+    
+}
+
+.header_logo_image {
+
+
+}
+
+.adress_header {
+    max-width: 240;
+    justify-self: end;
+
+}
+
+main {
+    
+
+}
+
+.cover {
+    margin-top: 180 24 120;
+
+}
+
+.cover_title {
+    padding: 165 50 106 50;
+
+}
+
+.discription {
+    padding: 0 50 50 50;
+
+}
+
+.subline {
+
+}
+
+.cover_button {
+
+}
+
+.lots {
+    margin-top: 0 24;
+    
+
+}
+
+.lots_title {
+
+}
+
+.lots_articles {
+
+}
+
+.lots_more {
+
+}
+
+.about {
+
+}
+
+.about_logo {
+    padding: 35 72 320 47;
+
+}
+
+.about_article {
+    padding: 133 0 13 0;
+
+}
+
+.about_title {
+
+}
+
+.about_text {
+
+}
+
+.footer {
+    margin-top: 180;
+    margin-right: 24;
+    margin-left: 24;
+    margin-bottom: 0;
+
+}
+
+.adress_footer {
+
+
+}
+
+.socials {
+
+}
