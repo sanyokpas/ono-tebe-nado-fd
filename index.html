@@ -10,62 +10,89 @@
     <link rel="stylesheet" href="./styles/global.css"/>
   </head>
   <body>
-    <header class="content_section">
-      <nav class="header_menu">
-        <ul class="header_links-list">
-          <li class="header_links-list-item header_links-list-item_no-bullit">
-            <a class="header_link_active">главная</a>
+    <header class="header">
+      <nav class="header-menu">
+        <ul class="header-links-list">
+          <li class="header-links-list-item header-links-list-item-no-bullit">
+            <a class="header-link-active">главная</a>
           </li>
-          <li class="header_links-list-item">
-            <a class="header_link" href="#0">посмотреть лоты</a>
+          <li class="header-links-list-item">
+            <a class="header-link" href="#0">посмотреть лоты</a>
           </li>
-           <li class="header_links-list-item">
-            <a class="header_link" href="#0">об аукционе</a>
+           <li class="header-links-list-item">
+            <a class="header-link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="header_logo">
+      <a class="header-logo">
         <img 
-        class="header_logo_image"
+        class="header-logo-image"
         src="./images/logo-black.svg"
         alt="Черный логотип проекта">
       </a>
-      <adress class="adress_header">
+      <address class="address header-address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <span class="adress_location">наб. Принсенграхт 263- 265, Амстердам</span>
-      </adress>
+      </address>
     </header>
     <main>
-      <section class="cover" class="content_section">
-        <h1 class="cover_title"></h1>
+      <section class="cover">
+        <div class="overlay"></div>
+        <h1 class="cover-title">
+          <span class="cover-title-start">ОНО</span>
+          <span class="cover-title-middle">ТЕБЕ</span>
+          <span class="cover-title-end">НАДО</span>
+        </h1>
         <div class="discription">
-          <p class="subline"></p>
-          <button class="cover_button"></button>
+          <p class="subline">Аукцион вещей, в которые никто не верил</p>
+          <button class="cover-button">Сделать ставку</button>
         </div>
       </section>
-      <section class="lots" class="content_section">
-        <h2 class="lots_title"></h2>
-        <ul class="lots_articles">
-          <li><a><article></article></a></li>
-          <li><a><article></article></a></li>
-          <li><a><article></article></a></li>
+      <section class="lots">
+        <h2 class="lots-title">Лоты</h2>
+        <ul class="lots-articles">
+          <li class="lots-articles-item lots-articles-item-film">
+            <div class="overlay"></div>
+            <a class="lots-articles-link" href="#0">
+              <article class="lots-articles-content">
+                <p class="lots-articles-title">Фильм режиссёра, который бросил киношколу</p>
+                <p class="lots-articles-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+              </article>
+            </a>
+          </li>
+          <li class="lots-articles-item lots-articles-item-book">
+            <a class="lots-articles-link" href="#0">
+              <article class="lots-articles-content">
+                <p class="lots-articles-title">Книга, где описан один скучный день из жизни рекламного агента</p>
+                <p class="lots-articles-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+              </article>
+            </a>
+          </li>
+          <li class="lots-articles-item lots-articles-item-painting">
+            <a class="lots-articles-link" href="#0">
+              <article class="lots-articles-content">
+                <p class="lots-articles-title">Картина, которую повторит даже 5-летний сын маминой подруги</p>
+                <p class="lots-articles-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+              </article>
+            </a>
+          </li>
         </ul>
-        <a class="lots_more"></a>
+        <a class="lots-more" href="#0">посмотреть больше</a>
       </section>
-      <section class="about" class="content_section">
-        <div class="about_logo"></div>
-        <div class="about_article">
-          <h2 class="about_title"></h2>
-          <div class="about_text">
+      <section class="about">
+        <div class="about-logo"></div>
+        <div class="about-article">
+          <h2 class="about-title"></h2>
+          <div class="about-text">
             <p></p>
             <p></p>
           </div>
         </div>
       </section>
     </main>
-    <footer class="content_section">
-      <adress class="adress_footer"></adress>
+    <footer class="footer">
+      <address class="footer-address"></address>
       <menu></menu>
       <Ul class="socials"></Ul>
     </footer>
