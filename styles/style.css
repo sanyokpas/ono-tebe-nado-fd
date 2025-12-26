@@ -209,17 +209,18 @@ main {
     min-height: 596px;
     background-size: cover;
     background-position: center;
-    padding: 48px 40px;
     font-size: 22px;
     line-height: 120%;
     color:#ffffff;
     position: relative;
     display: flex;
-    place-content: center;
 }
 
-.lots-articles-content {
-   z-index: 3;
+
+.lots-articles-link {
+    height: fit-content;
+    z-index: 3;
+    margin: 48px 40px; 
 }
 
 .lots-articles-title {
