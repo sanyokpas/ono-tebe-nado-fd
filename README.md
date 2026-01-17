@@ -1,1 +1,1 @@
-https://github.com/sanyokpas/ono-tebe-nado-fd.git
+https://github.com/sanyokpas/ono-tebe-nado-fd#
