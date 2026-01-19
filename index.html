@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -14,9 +14,9 @@
       <nav class="header-menu">
         <ul class="header-links-list">
           <li class="header-links-list-item header-links-list-item-no-bullit">
-            <a class="header-link-active">главная</a>
+            <a class="header-link header-link-active">главная</a>
           </li>
-          <li class="header-links-list-item header-links-list-item-space">
+          <li class="header-links-list-item">
             <a class="header-link" href="#0">посмотреть лоты</a>
           </li>
           <li class="header-links-list-item">
@@ -37,25 +37,25 @@
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover-title">
-          <span class="cover-title-start">ОНО</span>
-          <span class="cover-title-middle">ТЕБЕ</span>
-          <span class="cover-title-end">НАДО</span>
+          <span class="cover-title-start">оно</span>
+          <span class="cover-title-middle">тебе</span>
+          <span class="cover-title-end">надо</span>
         </h1>
         <div class="discription">
           <p class="subline">Аукцион вещей, в которые никто не верил</p>
-          <button class="cover-button">Сделать ставку</button>
+          <button type="button" class="cover-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
         <h2 class="lots-title">Лоты</h2>
         <ul class="lots-articles">
-          <li class="lots-articles-item lots-articles-item-film">
+          <li class="lots-articles-item">
             <a class="lots-articles-link" href="#0">
-              <article class="lots-articles-card">
+              <article class="lots-articles-card lots-articles-item-film">
                 <div class="overlay"></div>
-                <p class="lots-articles-title">
+                <h2 class="lots-articles-title">
                   Фильм режиссёра, который бросил киношколу
-                </p>
+                </h2>
                 <p class="lots-articles-text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -64,13 +64,13 @@
               </article>
             </a>
           </li>
-          <li class="lots-articles-item lots-articles-item-book">
+          <li class="lots-articles-item">
             <a class="lots-articles-link" href="#0">
-              <article class="lots-articles-card">
+              <article class="lots-articles-card lots-articles-item-book">
                 <div class="overlay"></div>
-                <p class="lots-articles-title">
+                <h2 class="lots-articles-title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </p>
+                </h2>
                 <p class="lots-articles-text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -82,13 +82,13 @@
               </article>
             </a>
           </li>
-          <li class="lots-articles-item lots-articles-item-painting">
+          <li class="lots-articles-item">
             <a class="lots-articles-link" href="#0">
-              <article class="lots-articles-card">
+              <article class="lots-articles-card lots-articles-item-painting">
                 <div class="overlay"></div>
-                <p class="lots-articles-title">
+                <h2 class="lots-articles-title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </p>
+                </h2>
                 <p class="lots-articles-text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -141,7 +141,7 @@
       <nav class="footer-menu">
         <ul class="footer-links-list">
           <li>
-            <a class="footer-link-active">главная</a>
+            <a class="footer-link footer-link-active" href="#0">главная</a>
           </li>
           <li>
             <a class="footer-link" href="#0">посмотреть лоты</a>
@@ -153,17 +153,31 @@
       </nav>
       <ul class="socials">
         <li>
-          <img class="socials-logo" src="./images/yt.svg" alt="лого ютуб" />
+          <a href="#0">
+            <img 
+              class="socials-logo" 
+              src="./images/yt.svg" 
+              alt="лого ютуб" 
+            />
+          </a>
         </li>
         <li>
-          <img class="socials-logo" src="./images/vk.svg" alt="лого вк" />
+          <a href="#0">
+            <img 
+              class="socials-logo" 
+              src="./images/vk.svg" 
+              alt="лого вк" 
+            />
+          </a>
         </li>
         <li>
-          <img
-            class="socials-logo"
-            src="./images/pinterest.svg"
-            alt="лого пинтерест"
-          />
+          <a href="#0">
+            <img
+              class="socials-logo"
+              src="./images/pinterest.svg"
+              alt="лого пинтерест"
+            />
+          </a>
         </li>
       </ul>
     </footer>

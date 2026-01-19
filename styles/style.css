@@ -1,7 +1,5 @@
 body {
-  background-color: F5F5F5;
-  font-family: Raleway, san-serif;
-  font-weight: 400;
+  background-color: #ffffff
 }
 
 .overlay {
@@ -18,6 +16,7 @@ a {
 
 img {
   width: 100%;
+  max-width: 391.48px;
   height: 100%;
   object-fit: contain;
 }
@@ -33,24 +32,17 @@ img {
 }
 
 .header-menu {
-  width: 391.48px;
-  height: 22px;
+  width: 100%;
   font-size: 18px;
-  line-height: 17px;
+  line-height: 0.94;
 }
 
 .header-links-list {
   display: flex;
-  gap: 30px;
+  gap: 33px;
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.header-link-active {
-  border-bottom: none;
-  width: 66px;
-  height: 21px;
 }
 
 .header-link {
@@ -58,12 +50,12 @@ img {
   text-decoration: none;
 }
 
-.header-links-list-item {
-  list-style: circle;
+.header-link-active {
+  border-bottom: none;
 }
 
-.header-links-list-item-space {
-  padding-right: 4px;
+.header-links-list-item {
+  list-style: circle;
 }
 
 .header-links-list-item-no-bullit {
@@ -81,24 +73,22 @@ img {
   font-style: normal;
   flex-direction: column;
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 1.35;
 }
 
 .header-address {
   max-width: 240px;
-  height: 98px;
   justify-self: end;
 }
 
 .cover {
   margin: 0;
   width: 1100px;
-  height: 757px;
+  min-height: 757px;
   position: relative;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center center;
-  z-index: 1;
   text-transform: uppercase;
 }
 
@@ -106,53 +96,47 @@ img {
   font-weight: bold;
   font-size: 100px;
   color: #ffffff;
-  z-index: 3;
-  position: absolute;
-  top: 165px;
-  right: 50px;
-  bottom: 207px;
-  left: 50px;
   display: flex;
   place-items: center;
   flex-direction: column;
   gap: 17px;
   letter-spacing: 0.3em;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
 }
 
 .cover-title-start {
   align-self: start;
+  padding-top: 164px;
+  padding-left: 50px;
 }
 
 .cover-title-middle {
   align-self: center;
-  margin-left: 30px;
+  padding-left: 30px;
 }
 
 .cover-title-end {
   align-self: end;
-  margin-right: -30px;
+  padding-right: 20px;
 }
 
 .discription {
-  position: absolute;
-  z-index: 2;
-  top: 656px;
-  right: 50px;
-  bottom: 50px;
-  left: 50px;
-  width: 1000px;
-  height: 51px;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.28;
   color: #ffffff;
   display: flex;
   flex-direction: row;
-  gap: 104px;
+  gap: 106px;
   text-transform: uppercase;
+  padding-top: 108px;
+  padding-left: 50px;
+  position: relative;
+  z-index: 1;
 }
 
 .subline {
-  height: 28px;
   word-spacing: 18.537px;
   justify-self: start;
   align-self: center;
@@ -166,6 +150,7 @@ img {
   color: #ffffff;
   border: 1px solid #ffffff;
   text-transform: uppercase;
+  padding: 10px 0px;
 }
 
 .lots {
@@ -194,11 +179,8 @@ img {
 .lots-articles-item {
   width: 334px;
   min-height: 596px;
-  background-size: cover;
-  background-position: center;
   color: #ffffff;
   position: relative;
-  padding: 48px 40px;
 }
 
 .lots-articles-link {
@@ -211,6 +193,9 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 48px 40px;
+  background-size: cover;
+  background-position: center;
 }
 
 .lots-articles-title {
@@ -218,14 +203,13 @@ img {
   text-transform: uppercase;
   z-index: 1;
   font-size: 22px;
-  line-height: 120%;
+  line-height: 1.2;
   text-decoration: underline;
   text-decoration-thickness: 0.5px;
   text-underline-offset: 2px;
 }
 
 .lots-articles-text {
-  font-weight: lighter;
   text-transform: none;
   text-decoration: none;
   font-size: 20px;
@@ -289,7 +273,7 @@ img {
 
 .about-text {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -300,6 +284,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: start;
+  padding-bottom: 82px;
 }
 
 .footer-address {
@@ -317,14 +302,14 @@ img {
   text-align: center;
 }
 
-.footer-link-active {
-  border-bottom: none;
-}
-
 .footer-link {
   border-bottom: 1px solid;
   text-decoration: none;
 }
+
+.footer-link-active {
+  border-bottom: none;
+ }
 
 .socials {
   list-style-type: none;
